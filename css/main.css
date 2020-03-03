@@ -36,7 +36,7 @@ Created:
 $primary-font	: 'Poppins', sans-serif;
 ---------------------------------------------
 
-$primary-color	: #8490ff;
+$primary-color	: #9d1e23;
 $title-color	: #222222;
 $text-color		: #777777;
 
@@ -50,12 +50,12 @@ $black			: #222;
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #8490ff;
+  background-color: #9d1e23;
   color: #fff;
 }
 
 ::selection {
-  background-color: #8490ff;
+  background-color: #9d1e23;
   color: #fff;
 }
 
@@ -1059,25 +1059,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #8490ff;
+  background: #9d1e23;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #8490ff;
+  color: #9d1e23;
   border: 1px solid #8490ff;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #8490ff;
+  color: #9d1e23;
   border: 1px solid #8490ff;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #8490ff;
+  background: #9d1e23;
   border: 1px solid transparent;
 }
 
@@ -1107,13 +1107,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.info {
   color: #fff;
-  background: #38a4ff;
+  background: #9d1e23;
   border: 1px solid transparent;
 }
 
 .genric-btn.info:hover {
-  color: #38a4ff;
-  border: 1px solid #38a4ff;
+  color: #9d1e23;
+  border: 1px solid #9d1e23;
   background: #fff;
 }
 
@@ -2071,7 +2071,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .menu-active, .parent-active > .sf-with-ul {
-  color: #8490ff !important;
+  color: #9d1e23 !important;
 }
 
 /*--------------------------------------------------------------
@@ -2320,22 +2320,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #008000;
 }
 
-.p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
-  background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+.p1-gradient-bg, .banner-left .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
+  background: -moz-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
+  background: -webkit-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
+  background: -ms-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
+}
+
+ .home-about-right .primary-btn {
+  background: -moz-linear-gradient(1800deg, #9d1e23 5%, #282828 100%);
+  background: -webkit-linear-gradient(180deg, #9d1e23 5%, #282828 100%);
+  background: -ms-linear-gradient(180deg, #9d1e23 5%, #282828 100%);
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
-  background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: -moz-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
+  background: -webkit-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
+  background: -ms-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .primary-btn {
-  background: #8490ff;
+  background: #9d1e23;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -2388,11 +2394,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn.white:hover {
   background: #fff;
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 .primary-btn.white:hover span {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 .primary-btn.wh {
@@ -2523,7 +2529,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-right .primary-btn:hover {
-  box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
+  box-shadow: 0px 20px 20px 0px rgba(157, 30, 35, 0.3);
 }
 
 /*-------- End home-about Area ------------*/
@@ -2559,7 +2565,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-services:hover h4 {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 /*--------- End Services Area -------------*/
@@ -2633,7 +2639,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio-area .filters ul li.active {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 .portfolio-area .filters-content {
@@ -2761,7 +2767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .testimonial-area .lnr-arrow-up:hover, .testimonial-area .lnr-arrow-down:hover {
-  background: #8490ff;
+  background: #9d1e23;
   color: #fff;
 }
 
@@ -2791,7 +2797,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-testimonial:hover h4 {
-  color: #8490ff;
+  color: #9d1e23;
   cursor: pointer;
 }
 
@@ -2987,7 +2993,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-recent-blog:hover h4 {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 .single-recent-blog:hover .f-img {
@@ -3565,7 +3571,7 @@ dl.accordion.time-line:before {
 }
 
 .posts-list .posts-title h3:hover {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 .blog-pagination {
@@ -4281,8 +4287,8 @@ dl.accordion.time-line:before {
 }
 
 .contact-page-area .form-area .genric-btn:hover {
-  border: 1px solid #8490ff;
-  color: #8490ff !important;
+  border: 1px solid #9d1e23;
+  color: #9d1e23 !important;
 }
 
 @media (max-width: 991px) {
@@ -4292,7 +4298,7 @@ dl.accordion.time-line:before {
 }
 
 .contact-page-area .address-wrap .single-contact-address {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .contact-page-area .address-wrap .single-contact-address h5 {
@@ -4304,7 +4310,7 @@ dl.accordion.time-line:before {
 .contact-page-area .address-wrap .single-contact-address .lnr {
   font-size: 30px;
   font-weight: 500;
-  color: #8490ff;
+  color: #9d1e23;
   margin-right: 30px;
 }
 
@@ -4351,11 +4357,11 @@ dl.accordion.time-line:before {
 }
 
 .single-footer-widget ul li a:hover {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 .single-footer-widget .bb-btn {
-  color: #8490ff;
+  color: #9d1e23;
   color: #fff;
   font-weight: 300;
   border-radius: 0;
@@ -4380,7 +4386,7 @@ dl.accordion.time-line:before {
 .single-footer-widget .btn {
   font-size: 1.2rem;
   border-radius: 0;
-  background: #8490ff;
+  background: #9d1e23;
   color: #fff;
 }
 
@@ -4456,7 +4462,7 @@ dl.accordion.time-line:before {
 }
 
 .single-footer-widget .footer-social a:hover i {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 .footer-bottom {
@@ -4475,11 +4481,11 @@ dl.accordion.time-line:before {
 }
 
 .footer-bottom .lnr, .footer-bottom a {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 .footer-text a {
-  color: #8490ff;
+  color: #9d1e23;
 }
 
 /*-------- end footer Area -------------*/
