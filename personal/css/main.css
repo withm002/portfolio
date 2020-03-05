@@ -1065,7 +1065,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary:hover {
   color: #9d1e23;
-  border: 1px solid #8490ff;
+  border: 1px solid #9d1e23;
   background: #fff;
 }
 
@@ -2321,23 +2321,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-bg, .banner-left .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
-  background: -moz-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
+  background: -moz- linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
   background: -webkit-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
   background: -ms-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
 }
 
  .home-about-right .primary-btn {
-  background: -moz-linear-gradient(1800deg, #9d1e23 5%, #282828 100%);
-  background: -webkit-linear-gradient(180deg, #9d1e23 5%, #282828 100%);
-  background: -ms-linear-gradient(180deg, #9d1e23 5%, #282828 100%);
+  background: -moz-#9d1e23;
+  background: -webkit-#9d1e23;
+  background: -ms-#9d1e23;
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
-  background: -moz-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
-  background: -webkit-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
-  background: -ms-linear-gradient(-90deg, #9d1e23 35%, #282828 100%);
+  background: -moz-#9d1e23;
+  background: -webkit-#9d1e23;
+  background: -ms-#9d1e23;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #9d1e23;
 }
 
 .primary-btn {
