@@ -1065,9 +1065,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .genric-btn.primary:hover {
-  color: #9d1e23;
+  color: #f6f6f6;
   border: 1px solid #9d1e23;
-  background: #fff;
+  background: #1a1a1a;
 }
 
 .genric-btn.primary-border {
@@ -2072,7 +2072,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .menu-active, .parent-active > .sf-with-ul {
-  color: #9d1e23 !important;
+  color: #f6f6f6 !important;
 }
 
 /*--------------------------------------------------------------
@@ -2146,7 +2146,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #1a1a1a;
+  color: #9d1e23;
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
@@ -2244,7 +2244,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color: #9d1e23;
   font-size: 13px;
   text-transform: uppercase;
   overflow: hidden;
@@ -2258,7 +2258,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #fff;
+  color: #f6f6f6;
 }
 
 #mobile-nav ul li li {
@@ -2293,7 +2293,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   display: none;
 }
 
@@ -2530,7 +2530,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-right .primary-btn:hover {
-  box-shadow: 0px 20px 20px 0px rgba(157, 30, 35, 0.3);
+	box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.3);
 }
 
 /*-------- End home-about Area ------------*/
@@ -2613,7 +2613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
   position: relative;
   text-transform: uppercase;
-  color: #222;
+  color: #f6f6f6;
   font-size: 12px;
   font-weight: 500;
 }
@@ -2630,7 +2630,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: calc(0% - 60px);
   position: absolute;
   height: 2px;
-  background: #333;
+  background: #f6f6f6;
   transition: width 350ms ease-out;
 }
 
@@ -3097,7 +3097,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------  End Skillbar Style  -------------*/
 .timeline ul li {
   background: #f6f6f6;
-	
   position: relative;
   margin: 0 auto;
   width: 2px;
@@ -3135,7 +3134,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	border: 2px solid #f6f6f6;
   position: relative;
   top: 7px;
-  width: 560px;
+  width: 360px;
   padding: 30px;
 }
 
