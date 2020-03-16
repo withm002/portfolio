@@ -36,4 +36,5 @@ mail($mailTo, $subject, $txt, $headers);
         echo 'failed';
     }
 }
+
 ?>
