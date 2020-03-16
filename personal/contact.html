@@ -15,7 +15,9 @@
 		<meta charset="UTF-8">
 		<!-- Site Title -->
 		<title>Personal</title>
-
+		
+		<?php include('mail.php'); ?>
+		
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
 			CSS
@@ -100,7 +102,7 @@
 							</div>														
 						</div>
 						<div class="col-lg-8">
-						  <form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
+						  <form class="form-area contact-form text-right" id="myForm" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
 								<div class="row">	
 									<div class="col-lg-6 form-group">
 										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" style="color: #f6f6f6;" required="" type="text">
