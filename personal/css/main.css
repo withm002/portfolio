@@ -4422,6 +4422,15 @@ dl.accordion.time-line:before {
   font-weight: 300;
 }
 
+.submit {
+	background-color: #9D1E23;
+	color: #f6f6f6;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: none;
+}
+
 .single-footer-widget ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #777777;
