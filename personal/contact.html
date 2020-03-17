@@ -99,7 +99,7 @@
 								</div>
 							</div>														
 						</div>
-					
+					<!-- OLD FORM
 						<div class="col-lg-8">
 						  <form class="form-area contact-form text-right" id="myForm" action="https://formspree.io/xeqzgpyb" method="POST">
 							<div class="row">	
@@ -116,10 +116,32 @@
 								  <div class="col-lg-12">
 										<div class="alert-msg" style="text-align: left;"></div>
 									  <button class="submit" type="submit">Send</button>
+							  </div>
+							</div>
+						  </form>
+				</div>
+							-->
+					
+							<div class="col-lg-8">
+							<form id="myForm1" class="form-area contact-form text-right"  action="https://formspree.io/xeqzgpyb" method="POST">
+								<div class="row">
+									<div class="col-lg-6 form-group">
+										
+										<input type="text" name="name" class="common-input mb-20 form-control" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'">
+									
+										<input type="email" name="_replyto" class="common-input mb-20 form-control" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
+									
+										<input type="text" name="subject" class="common-input mb-20 form-control" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'">
+									</div>
+									
+									<div class="col-lg-6 form-group"><textarea name="message" class="common-input mb-20 form-control" placeholder="Your Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Message'"></textarea>
+									</div>
+									
+								<div class="col-lg-12"><input class="submit" type="submit" value="Send" style="background: #9d1e23;">
 									</div>
 								</div>
-							</form>	
-						</div>
+								</form>
+					</div>	
 				</div>
 			</section>
 			<!-- End contact-page Area -->
