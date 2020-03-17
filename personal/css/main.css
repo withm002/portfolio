@@ -1082,6 +1082,31 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid transparent;
 }
 
+.genric-btn.secondary {
+  color: #f6f6f6;
+  background: #1a1a1a;
+  border: 1px solid transparent;
+}
+
+.genric-btn.secondary:hover {
+  color: #9d1e23;
+  border: 1px solid #9d1e23;
+  background: #f6f6f6;
+}
+
+.genric-btn.secondary-border {
+  color: #9d1e23;
+  border: 1px solid #8490ff;
+  background: #fff;
+}
+
+.genric-btn.secondary-border:hover {
+  color: #fff;
+  background: #9d1e23;
+  border: 1px solid transparent;
+}
+
+
 .genric-btn.success {
   color: #fff;
   background: #4cd3e3;
@@ -2376,7 +2401,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn:hover {
-  color: #fff;
+  color: #1a1a1a;
+  background: #f6f6f6;
 }
 
 .primary-btn:hover span {
@@ -4296,17 +4322,20 @@ dl.accordion.time-line:before {
 @media (max-width: 991px) {
   .contact-page-area .address-wrap {
     margin-bottom: 30px;
+	  align-content: center;
   }
 }
 
 .contact-page-area .address-wrap .single-contact-address {
   margin-bottom: 5px;
+	
 }
 
 .contact-page-area .address-wrap .single-contact-address h5 {
   font-weight: 300;
   font-size: 16px;
   margin-bottom: 5px;
+  
 }
 
 .contact-page-area .address-wrap .single-contact-address .lnr {
@@ -4314,6 +4343,7 @@ dl.accordion.time-line:before {
   font-weight: 500;
   color: #9d1e23;
   margin-right: 30px;
+	
 }
 
 /* =================================== */
