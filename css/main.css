@@ -2796,6 +2796,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #F8f8f8;
   padding: 14px;
 	margin-right: 10px;
+	margin-bottom: 20px;
   color: #1a1a1a;
   font-weight: 500;
   display: inline-flex;
