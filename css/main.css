@@ -2279,16 +2279,20 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li a {
   color: #1a1a1a;
-  font-size: 22px;
-  text-transform: uppercase;
+  font-size: 18px;
   overflow: hidden;
   padding: 5% 20% 5% 20%;
   position: relative;
+  left: 15%;
   text-decoration: none;
-  width: 100%;
+  width: 70%;
   display: block;
   outline: none;
   font-weight: 500;
+  box-shadow: -5px -5px 5px 0px #ffffff, 5px 5px 5px 0px #eaeaea;
+  border-radius: 47px;
+  margin-bottom: 10%;
+  margin-top: 5%;
 }
 
 #mobile-nav ul li a:hover {
@@ -2608,6 +2612,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #9d1e23;
 }
 
+.container-new img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 47px;
+  box-shadow: -4px -4px 8px 0px #ffffff ,2px 5px 5px 0px #eaeaea;
+  background: #f8f8f8;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.container-new:hover {
+  opacity: 0.3;
+}
+
 /*--------- End Services Area -------------*/
 /*--------- Start Facts Area -------------*/
 .single-fact {
@@ -2652,7 +2674,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
   position: relative;
   text-transform: uppercase;
-  color: #f6f6f6;
+  color: #1d1d1d;
   font-size: 12px;
   font-weight: 500;
 }
@@ -2676,6 +2698,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio-area .filters ul li:hover:after {
   width: calc(100% - 60px);
   transition: width 350ms ease-out;
+  color: #9d1e23;
 }
 
 .portfolio-area .filters ul li.active {
@@ -4604,5 +4627,3 @@ dl.accordion.time-line:before {
   100% {
     opacity:1;
 }
-
-	
