@@ -2218,7 +2218,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 45px;
   z-index: 999;
   top: 22px;
   border: 0;
@@ -2804,7 +2804,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  box-shadow: -5px -5px 10px 0px #ffffff, 5px 5px 10px 0px #eaeaea;
+  box-shadow: -4px -4px 8px 0px #ffffff ,2px 5px 5px 0px #eaeaea;
 }
 
 .testimonial-area .lnr-arrow-up:hover, .testimonial-area .lnr-arrow-down:hover {
@@ -3122,7 +3122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- Start Skillbar Style  -------------*/
 .single-skill p {
   margin-top: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   text-align: right;
 }
 
@@ -3139,12 +3139,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*--------  End Skillbar Style  -------------*/
 .timeline ul li {
-  background: #1a1a1a;
+  background: #f8f8f8;
   position: relative;
   margin: 0 auto;
-  width: 3px;
+  width: 10px;
   padding-bottom: 40px;
   list-style-type: none;
+  box-shadow: -2px -2px 5px 0px #ffffff, 2px 5px 5px 0px #eaeaea;
 }
 
 .timeline ul li:last-child {
@@ -3153,18 +3154,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .timeline ul li:before {
   content: '';
-  background: #fafafa;
+  background: #f8f8f8;
   position: absolute;
   left: 50%;
   top: 40%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
-  width: 20px;
-  height: 20px;
-  border: 5px solid #1a1a1a;
+  width: 2px;
+  height: 2px;
+  border: 5px solid #9d1e23;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  box-shadow: -2px -2px 5px 0px #ffffff, 2px 5px 5px 0px #eaeaea;
 }
 
 .timeline ul li .hidden {
@@ -3172,13 +3174,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .timeline ul li .content {
-  background-color: #fafafa !important;
- 
-	border: 2px solid #fafafa;
+  background-color: #f8f8f8 !important;
+  border: 0px solid #fafafa;
   position: relative;
   top: 7px;
   width: 360px;
   padding: 30px;
+  box-shadow: -5px -5px 5px 0px #ffffff, 2px 5px 5px 0px #eaeaea;
 }
 
 .timeline ul li .content h4 {
@@ -4479,6 +4481,7 @@ dl.accordion.time-line:before {
 	padding-left: 20px;
 	padding-right: 20px;
 	border: none;
+	border-radius: 10px;
 }
 
 .single-footer-widget ::-moz-placeholder {
