@@ -1086,6 +1086,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #f6f6f6;
   background: #1a1a1a;
   border: 1px solid transparent;
+  border-radius: 47px;
 }
 
 .genric-btn.secondary:hover {
