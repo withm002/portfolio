@@ -2097,8 +2097,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.nav-menu li:hover > a, .menu-active, .parent-active > .sf-with-ul {
-  color: #9d1e23 !important;
+.nav-menu li:hover > a, .parent-active > .sf-with-ul {
+  color: #9d1e23!important;
+}
+
+.nav-menu li:active > a, .menu-active {
+	color: #9d1e23;
+}
+
+.menu-active li:active > a{
+	colour: #9d1e23;
+}
+
+#mobile-nav li:active > a, .menu-active {
+	background: none;
+	
 }
 
 /*--------------------------------------------------------------
