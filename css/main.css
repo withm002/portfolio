@@ -2251,17 +2251,16 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Styling */
 #mobile-nav {
   position: fixed;	
-  top: 10%;
+  top: 15%;
   padding-top: 18px;
-  bottom: 10%;
+  bottom: 15%;
   z-index: 1998;
   background: #f8f8f8;
   left: -100%;
   right: 50%;
-  width: 60%;
+  width: 75%;
   height: auto;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 12.5%;
   overflow-y: auto;
   transition: 0.6s;
   box-shadow: 7px 7px 30px 0px rgba(0, 0, 0, 0.3);
@@ -2277,7 +2276,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: nowrap;
-  width: 90%;
+  width: 60%;
+	margin: 8%;
+	margin-right: 25%;
   justify-content: space-between;
 }
 
@@ -2287,13 +2288,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li a {
   color: #1a1a1a;
-  font-size: 18px;
+  font-size: 16px;
   overflow: hidden;
   padding: 5% 20% 5% 20%;
   position: relative;
   left: 15%;
   text-decoration: none;
-  width: 70%;
+  width: 100%;
   display: block;
   outline: none;
   font-weight: 500;
@@ -2304,7 +2305,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #9d1e23;
+  color: #ffffff;
+	background: #9d1e23;
+	box-shadow: 5px 5px 5px 0px #eaeaea;
 }
 
 #mobile-nav ul li li {
