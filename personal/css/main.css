@@ -33,7 +33,7 @@ Created:
 /* =================================== */
 /*
 
-$primary-font	: 'Poppins', sans-serif;
+$primary-font	: 'Quasimoda', sans-serif;
 ---------------------------------------------
 
 $primary-color	: #9d1e23;
@@ -93,9 +93,10 @@ $black			: #222;
 
 body {
   color: #1a1a1a;
-  font-family: "Poppins", sans-serif;
+  font-family: "quasimoda",sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
-  font-weight: 300;
   line-height: 1.625em;
   position: relative;
 }
@@ -160,21 +161,22 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "quasimoda", sans-serif;
   color: #1a1a1a;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #1a1a1a;
+ margin-bottom: 0;
+ margin-top: 0;
+ font-family: "quasimoda",sans-serif;
+ font-weight: 700;
+ font-style: normal;
+ color: #1a1a1a;
 }
 
 h1, .h1 {
