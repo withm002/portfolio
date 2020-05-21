@@ -2076,9 +2076,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #header {
   position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
+  left: 0px;
+  top: 0px;
+  right: 0px;
   transition: all 0.5s;
   z-index: 997;
   background: #fafafa;
@@ -2086,7 +2086,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   transition: all 0.5s;
-  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);*/
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
 #header.header-scrolled .main-menu {
@@ -2100,20 +2100,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .parent-active > .sf-with-ul {
-  color: #9d1e23!important;
+  color: #9d1e23;
 }
 
 .nav-menu li:active > a, .menu-active {
 	color: #9d1e23;
-}
-
-.menu-active li:active > a{
-	colour: #9d1e23;
-}
-
-#mobile-nav li:active > a, .menu-active {
-	background: none;
-	
 }
 
 /*--------------------------------------------------------------
@@ -2122,7 +2113,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Menu Essentials */
 .nav-menu, .nav-menu * {
   margin: 0;
-  padding: 0;
+  padding-bottom: 10px;
+  padding-right: 10px;
   list-style: none;
 }
 
@@ -2188,7 +2180,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #1a1a1a;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
@@ -2289,7 +2281,6 @@ h1, h2, h3, h4, h5, h6 {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   flex-wrap: nowrap;
   width: 60%;
 	margin: 8%;
@@ -2321,8 +2312,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li a:hover {
   color: #ffffff;
-	background: #9d1e23;
-	box-shadow: 5px 5px 5px 0px #eaeaea;
+  background: #9d1e23;
+  box-shadow: 5px 5px 5px 0px #eaeaea;
+}
+
+#mobile-nav ul li a:active {
+  color: #ffffff;
+  background: #1a1a1a;
+  box-shadow: 5px 5px 5px 0px #eaeaea;
 }
 
 #mobile-nav ul li li {
@@ -2420,7 +2417,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  position: relative;
   border-radius: 47px;
   box-shadow: -7px -7px 10px #ffffff, 5px 5px 10px #ebebeb;  
 }
@@ -4652,4 +4648,5 @@ dl.accordion.time-line:before {
   }
   100% {
     opacity:1;
+}
 }
