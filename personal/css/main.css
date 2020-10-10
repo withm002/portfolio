@@ -4676,11 +4676,21 @@ dl.accordion.time-line:before {
 
 .column img:hover {
 	opacity: 0.8;
-	transform: scale(1.08);
 	transition: 0.3s;
 	transition-timing-function: ease-in-out;
-	transition-delay: 0.1s;
+	transition-delay: 0.0s;
 	overflow: hidden;
+}
+
+#wrapper {
+  background: #ccc;
+  overflow: hidden;
+  transition: height 300ms;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition-timing-function: ease-in-out;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -4699,4 +4709,68 @@ dl.accordion.time-line:before {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.CollapsibleImagePanelDemo_section2 {
+padding-top: 0;
+padding-bottom: 0;
+padding-left: 0;
+padding-right: 0;
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+margin-bottom: 0;
+-webkit-border-horizontal-spacing: 0;
+-webkit-border-vertical-spacing: 0;
+}
+
+.collapsible {
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.active, .collapsible:hover {
+}
+
+.content {
+  margin-top: 10px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  color: #1d1d1d;
+}
+
+.collapse-open {
+	padding: 10px 15px 10px 15px;
+	color: #1d1d1d;
+}
+
+.collapse-button {
+	outline: none !important;
+}
+
+.collapse-open-button {
+  background: #ccc;
+  overflow: hidden;
+  transition: height 300ms;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition-timing-function: ease-in-out;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.primary-btn-brief {
+	background: #9d1e23;
+	padding: 10px 20px;
+	border-radius: 100px;
+	color: #f8f8f8;
+	text-transform: uppercase;
+}
+
+.primary-btn-brief:hover {
+	background: #2d2d2d;
+	color: #f8f8f8;
 }
