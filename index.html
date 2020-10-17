@@ -41,6 +41,9 @@
 		<link rel="stylesheet" type="text/css" href="https://withm002.github.io/main.css">
 		</head>
 		<body>	
+			<div class="loader-wrapper">
+    <span class="loader"><lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_vyfzyctm.json" background="transparent" speed="1" style="width: 75px;" loop auto></lottie-player></span>
+</div>
 		  <header id="header" style="background: #fafafa;">
 		    <div class="container main-menu" >
 		    	<div class="row align-items-center justify-content-between d-flex">
@@ -249,5 +252,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+					
+			<script>$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});</script>
+					
 		</body>
 	</html>
